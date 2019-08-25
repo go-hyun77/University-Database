@@ -1,0 +1,50 @@
+<html>
+<body>
+
+<div id="main">
+        <h1>University Mock Database Project</h1>
+<br></div>
+
+<form action="ProfessorInfo.php" method="POST">
+        <div style="background-color:lightblue;">
+        <fieldset>
+
+        <legend>Professors:</legend>
+
+        <b><br>Professor Information Query<br></b>
+        Professor SSN: <input type="text" name="sno"/>
+        <input type="submit"/>
+</form>
+
+<form action="Grades.php" method="POST">
+	<b><br>Course/Section Information Query<br></b>
+
+        Course Number: <input type="text" name="courseNumber"><br>
+        Section Number: <input type="text" name="sectionNumber">
+
+        <input type="submit"/>
+        </fieldset>
+</form></div>
+
+<form action="CourseEnroll.php" method="POST">
+	<div style="background-color:lightgrey;">
+        <fieldset>
+
+        <legend>Students:</legend>
+
+        <b><br>Course Enrollment Query<br></b>
+        Course Number: <input type="text" name="courseNumber" />
+        <input type="submit"/>
+</form>
+
+<form action="StudentInfo.php" method="POST">
+        <b><br>Student Info Query<br></b>
+
+        CWID: <input type="text" name="studentCWID" />
+        <input type="submit"/>
+
+        </fieldset>
+</form></div>
+
+</body>
+</html>
