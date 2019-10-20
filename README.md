@@ -1,2 +1,2 @@
 ## University Database
-Database built with MySQL, PHP, and HTML.
+Database simulating a university grade system built with MySQL, PHP, and HTML.
